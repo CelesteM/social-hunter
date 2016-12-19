@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Not Facebook</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/sb-admin.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="../group/index.html">Not Facebook</a>
+            </div>
+            <ul class="nav navbar-right top-nav">
+                <li style="margin-right: 20px">
+                    <a href="../message/messages.html"><i class="fa fa-envelope"></i></a>
+                </li>
+            </ul>
+            <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens  -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                    <li>
+                        <a href="../group/index.html"><i class="fa fa-fw fa-dashboard"></i> Groups</a>
+                    </li>
+                    <li>
+                        <a href="../friend/friends.html"><i class="fa fa-fw fa-table"></i> Friends</a>
+                    </li>
+                    <li class="active">
+                        <a href="../employee/employees.html"><i class="fa fa-fw fa-file"></i> Employees</a>
+                    </li>
+                    <li>
+                        <a href="../sales/sales-report.html"><i class="fa fa-fw fa-bar-chart-o"></i> Sales Report</a>
+                    </li>
+                    <li>
+                        <a href="../revenue/revenues.html"><i class="fa fa-fw fa-line-chart"></i> Revenues</a>
+                    </li>
+                    <li>
+                        <a href="../item/items.html"><i class="fa fa-fw fa-magic"></i> Items</a>
+                    </li>
+                    <li>
+                        <a href="../transaction/transactions.html"><i class="fa fa-fw fa-pencil-square-o"></i> Transactions</a>
+                    </li>
+                    <li>
+                        <a href="../customer/customers.html"><i class="fa fa-fw fa-user"></i> Customers</a>
+                    </li>
+                    <li>
+                        <a href="../advertisement/advertisements.html"><i class="fa fa-fw fa-pie-chart"></i> Advertisements</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+
+        <div id="page-wrapper">
+
+            <div class="container-fluid" style="font-size: 13pt">
+
+                <!-- Page Heading -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="page-header">
+                            Edit Employees
+                        </h1>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-2"><a href="employees.html"><button>See Employee</button></a></div>
+                </div>
+                </br>
+                <form> 
+                <div class="form-group row"> <!-- SSN -->
+                    <label for="ssn" class="col-xs-4 col-form-label" style="font-size: 14pt; text-align: right;">SSN</label>
+                    <div class="col-xs-4">
+                    <input type="text" class="form-control" id="ssn" style="font-size: 14pt; height: 2.6vw">
+                    </div>
+                </div>
+                <div class="form-group row"> <!-- First Name -->
+                    <label for="first-name" class="col-xs-4 col-form-label" style="font-size: 14pt; text-align: right;">First Name</label>
+                    <div class="col-xs-4">
+                    <input type="text" class="form-control" id="first-name" style="font-size: 14pt; height: 2.6vw">
+                    </div>
+                </div>
+                <div class="form-group row"> <!-- Last Name -->
+                    <label for="last-name" class="col-xs-4 col-form-label" style="font-size: 14pt; text-align: right;">Last Name</label>
+                    <div class="col-xs-4">
+                    <input type="text" class="form-control" id="last-name" style="font-size: 14pt; height: 2.6vw">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="start-date" class="col-xs-4 col-form-label" style="font-size: 14pt; text-align: right;">Start Date</label>
+                    <div class="col-xs-4">
+                    <input type="date" class="form-control" id="start-date" style="font-size: 14pt; height: 2.6vw">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="hourly-rate" class="col-xs-4 col-form-label" style="font-size: 14pt; text-align: right;">Hourly Rate</label>
+                    <div class="col-xs-4">
+                    <input type="number" class="form-control" id="hourly-rate" style="font-size: 14pt; height: 2.6vw">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="telephone" class="col-xs-4 col-form-label" style="font-size: 14pt; text-align: right;">Telephone</label>
+                    <div class="col-xs-4">
+                    <input type="text" class="form-control" id="telephone" style="font-size: 14pt; height: 2.6vw">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="address" class="col-xs-4 col-form-label" style="font-size: 14pt; text-align: right;">Address</label>
+                    <div class="col-xs-4">
+                    <input type="text" class="form-control" id="address" style="font-size: 14pt; height: 2.6vw">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="city" class="col-xs-4 col-form-label" style="font-size: 14pt; text-align: right;">City</label>
+                    <div class="col-xs-4">
+                    <input type="text" class="form-control" id="city" style="font-size: 14pt; height: 2.6vw">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="state" class="col-xs-4 col-form-label" style="font-size: 14pt; text-align: right;">State</label>
+                    <div class="col-xs-4">
+                    <input type="text" class="form-control" id="state" style="font-size: 14pt; height: 2.6vw">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="zip-code" class="col-xs-4 col-form-label" style="font-size: 14pt; text-align: right;">Zip Code</label>
+                    <div class="col-xs-4">
+                    <input type="text" class="form-control" id="zip-code" style="font-size: 14pt; height: 2.6vw">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-lg-8" >
+                        <button type="submit" class="btn btn-primary" style="float: right; font-size: 14pt">Add</button>
+                    </div>
+                </div>
+            </form>
+                
+                <!-- /.row -->
+
+            </div>
+            <!-- /.container-fluid -->
+
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
